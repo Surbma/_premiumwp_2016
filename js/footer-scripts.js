@@ -1,0 +1,6 @@
+// @codekit-prepend "../uikit/src/js/core/core.js"
+// @codekit-prepend "../uikit/src/js/core/grid.js"
+// @codekit-prepend "../uikit/src/js/core/utility.js"
+// @codekit-prepend "../uikit/src/js/core/smooth-scroll.js"
+// @codekit-prepend "../uikit/src/js/core/offcanvas.js"
+// @codekit-prepend "../uikit/src/js/components/sticky.js"

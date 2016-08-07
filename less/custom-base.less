@@ -1,0 +1,70 @@
+blockquote {
+	background-color: #fff;
+    position: relative;
+    border: 1px solid #87452E;
+    border-bottom-width: 3px;
+	border-radius: 10px;
+    padding: 30px 60px;
+	color: #000;
+	font-style: normal;
+}
+
+blockquote:after,
+blockquote:before {
+	position: absolute;
+	top: 100%;
+	left: 60px;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	pointer-events: none;
+}
+
+blockquote:after {
+	border-top-color: #fff;
+	border-width: 20px 20px 0 20px;
+}
+
+blockquote:before {
+	border-top-color: #87452E;
+	border-width: 23px 23px 0 23px;
+	margin-left: 0;
+}
+
+blockquote img {
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+blockquote strong {
+    color: #b45c3d;
+	font-size: 1.2em;
+}
+
+blockquote cite {
+    font-style: normal;
+    color: #a3a4a4;
+}
+
+blockquote .quote {
+    position: absolute;
+    top: 55px;
+    left: 5px;
+	font-size: 120px;
+}
+
+@media only screen and (max-width: 479px) {
+
+	.uk-h1, h1 {
+	}
+
+}
+
+@media only screen and (min-width: 480px) {
+
+    blockquote cite {
+        font-size: 1.4em;
+    }
+
+}
